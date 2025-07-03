@@ -1,0 +1,95 @@
+body {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Navbar Section */
+.navbar {
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+}
+
+.navbar-list {
+    display: inline-block;
+}
+
+a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 32px;
+}
+
+.arrow {
+    position: absolute;
+    width: 20px;
+}
+
+.buy-anchor {
+    background-color: rgb(4, 202, 202);
+    margin-left: 35px;
+    padding: 7px 18px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+/* Hero Section */
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1, p {
+    margin-left: 7.5%;
+}
+
+.hero-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+}
+
+.hero-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: -10px;
+}
+
+.hero-button {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: rgb(114, 114, 114);
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.hero-ways {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    padding: 9px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
