@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/background.jpg');
+    background-image: url('Images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,10 +17,6 @@ body {
     position: fixed;
     top: 10px;
     right: 30px;
-}
-
-.navbar-list {
-    display: inline-block;
 }
 
 a {
